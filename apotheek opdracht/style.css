@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eafff3;
+    max-width: 1024px;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.menu{
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.menu > p{
+    padding: 5px;
+}
+
+img{
+    height: 200px;
+    width: auto;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+}
+  
+a{
+    padding: 8px;
+}
+
+.next-to{
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+
+.nextto{
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+}
+
+.tijden{
+    max-width: 30%;
+}
+
+.adres2{
+    max-width: 40%;
+    margin-left: -53%;
+}
+
+.container{
+    width: 450px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.mySlides{
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+}
+
+.slideshow{
+    width: 100%;
+    height: 250px;
+}
+
+button{
+    padding: 40px;
+    margin: 40px;
+}
+
+.openingstijden{
+    font-size: 20px;
+}
+
+.tijden{
+    background-color: white;
+    max-width: 40%;
+    padding: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.algemeen{
+    max-width: 100%;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.adres{
+    font-size: 20px;
+    margin-left: -65px;
+}
+
+.adres2{
+    background-color: white;
+    max-width: 100%;
+    padding: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.center-nieuws{
+    margin-left: 40px;
+}
+
+
+.nieuws{
+    background-color: white;
+    text-align: center;
+    position: relative;
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.image-text > a{
+    color: white;
+    text-decoration: none;
+}
+
+.image-text2 > a{
+    color: white;
+    text-decoration: none;
+}
+
+.nieuws-text{
+    font-size: 20px;
+    color: black;
+}
+
+.image-text{
+    text-align: center;
+    max-width: 45%;
+    position: absolute;
+    font-size: 20px;
+    top: 80%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+}
+
+.image-text2{
+    text-align: center;
+    max-width: 45%;
+    position: absolute;
+    font-size: 20px;
+    top: 80%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+}
+
+.nieuws-img{
+    max-height: 100%;
+    height: auto;
+    width: 450px;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(-98%);
+    }
+    100%{
+        transform: translateX(-190%);
+    }
+}
+
+.algemene-informatie{
+    background-color: white;
+    padding: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
